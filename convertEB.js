@@ -132,7 +132,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "https://www.enterblogger.com/p/wait-for-access.html?dadahsayang=" + encryptedUrl;
+            a_to_ve[i].href = "https://www.enterblogger.com/p/wait-for-access.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
